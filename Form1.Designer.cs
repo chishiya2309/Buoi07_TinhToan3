@@ -105,6 +105,7 @@
             this.txtSo2.Size = new System.Drawing.Size(100, 26);
             this.txtSo2.TabIndex = 13;
             this.txtSo2.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.txtSo2.Validating += new System.ComponentModel.CancelEventHandler(this.txtSo2_Validating);
             // 
             // label2
             // 

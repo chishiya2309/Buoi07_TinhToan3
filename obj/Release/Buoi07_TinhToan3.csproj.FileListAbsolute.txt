@@ -1,0 +1,15 @@
+D:\Workspace\KiemThuPhanMem\Buoi07_TinhToan3\Buoi07_TinhToan3\bin\Release\Buoi07_TinhToan3.exe.config
+D:\Workspace\KiemThuPhanMem\Buoi07_TinhToan3\Buoi07_TinhToan3\bin\Release\Buoi07_TinhToan3.exe
+D:\Workspace\KiemThuPhanMem\Buoi07_TinhToan3\Buoi07_TinhToan3\bin\Release\Buoi07_TinhToan3.pdb
+D:\Workspace\KiemThuPhanMem\Buoi07_TinhToan3\Buoi07_TinhToan3\bin\Release\mscorlib.dll
+D:\Workspace\KiemThuPhanMem\Buoi07_TinhToan3\Buoi07_TinhToan3\bin\Release\normidna.nlp
+D:\Workspace\KiemThuPhanMem\Buoi07_TinhToan3\Buoi07_TinhToan3\bin\Release\normnfc.nlp
+D:\Workspace\KiemThuPhanMem\Buoi07_TinhToan3\Buoi07_TinhToan3\bin\Release\normnfd.nlp
+D:\Workspace\KiemThuPhanMem\Buoi07_TinhToan3\Buoi07_TinhToan3\bin\Release\normnfkc.nlp
+D:\Workspace\KiemThuPhanMem\Buoi07_TinhToan3\Buoi07_TinhToan3\bin\Release\normnfkd.nlp
+D:\Workspace\KiemThuPhanMem\Buoi07_TinhToan3\Buoi07_TinhToan3\obj\Release\Buoi07_TinhToan3.csprojResolveAssemblyReference.cache
+D:\Workspace\KiemThuPhanMem\Buoi07_TinhToan3\Buoi07_TinhToan3\obj\Release\Buoi07_TinhToan3.Form1.resources
+D:\Workspace\KiemThuPhanMem\Buoi07_TinhToan3\Buoi07_TinhToan3\obj\Release\Buoi07_TinhToan3.Properties.Resources.resources
+D:\Workspace\KiemThuPhanMem\Buoi07_TinhToan3\Buoi07_TinhToan3\obj\Release\Buoi07_TinhToan3.csproj.GenerateResource.Cache
+D:\Workspace\KiemThuPhanMem\Buoi07_TinhToan3\Buoi07_TinhToan3\obj\Release\Buoi07_TinhToan3.exe
+D:\Workspace\KiemThuPhanMem\Buoi07_TinhToan3\Buoi07_TinhToan3\obj\Release\Buoi07_TinhToan3.pdb
