@@ -53,6 +53,16 @@ namespace Buoi07_TinhToan3
             }
         }
 
+        private void txtSo1_Enter(object sender, EventArgs e)
+        {
+            txtSo1.BeginInvoke(new Action(() => txtSo1.SelectAll()));
+        }
+
+        private void txtSo2_Enter(object sender, EventArgs e)
+        {
+            txtSo2.BeginInvoke(new Action(() => txtSo2.SelectAll()));
+        }
+
         private void btnTinh_Click(object sender, EventArgs e)
         {
             //lấy giá trị của 2 ô số
