@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -30,6 +30,27 @@ namespace Buoi07_TinhToan3
                                  "Thông báo", MessageBoxButtons.YesNo);
             if (dr == DialogResult.Yes)
                 this.Close();
+        }
+
+        private void txtSo1_Validating(object sender, CancelEventArgs e)
+        {
+            double result;
+            if (!double.TryParse(txtSo1.Text, out result))
+            {
+                MessageBox.Show("Số thứ nhất không hợp lệ! Vui lòng nhập số.",
+                                "Lỗi nhập liệu", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                e.Cancel = true;
+            }
+        }
+        private void txtSo2_Validating(object sender, CancelEventArgs e)
+        {
+            double result;
+            if (!double.TryParse(txtSo2.Text, out result))
+            {
+                MessageBox.Show("Số thứ hai không hợp lệ! Vui lòng nhập số.",
+                                "Lỗi nhập liệu", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                e.Cancel = true;
+            }
         }
 
         private void btnTinh_Click(object sender, EventArgs e)
