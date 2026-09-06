@@ -21,6 +21,7 @@ namespace Buoi07_TinhToan3
         {
             txtSo1.Text = txtSo2.Text = "0";
             radCong.Checked = true;             //đầu tiên chọn phép cộng
+            btnThoat.CausesValidation = false;  //khi thoát không cần validate
         }
 
         private void btnThoat_Click(object sender, EventArgs e)
@@ -29,7 +30,10 @@ namespace Buoi07_TinhToan3
             dr = MessageBox.Show("Bạn có thực sự muốn thoát không?",
                                  "Thông báo", MessageBoxButtons.YesNo);
             if (dr == DialogResult.Yes)
+            {
+                this.AutoValidate = AutoValidate.Disable;   //bỏ qua validate
                 this.Close();
+            }
         }
 
         private void txtSo1_Validating(object sender, CancelEventArgs e)
@@ -65,6 +69,9 @@ namespace Buoi07_TinhToan3
 
         private void btnTinh_Click(object sender, EventArgs e)
         {
+            //validate input
+            if (!ValidateChildren())
+                return;
             //lấy giá trị của 2 ô số
             double so1, so2, kq = 0;
             so1 = double.Parse(txtSo1.Text);
