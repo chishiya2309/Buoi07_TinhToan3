@@ -90,7 +90,7 @@ namespace Buoi07_TinhToan3
                 return;
             }
             //Hiển thị kết quả lên trên ô kết quả
-            txtKq.Text = kq.ToString();
+            txtKq.Text = kq.ToString("F0");
         }
     }
 }
