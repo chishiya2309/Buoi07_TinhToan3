@@ -16,3 +16,18 @@ F:\18-19 HKII\18610SP\Kiem thu PM\Bai tap\BT4b\Buoi07_TinhToan3\obj\Debug\Buoi07
 F:\18-19 HKII\18610SP\Kiem thu PM\Bai tap\BT4b\Buoi07_TinhToan3\obj\Debug\Buoi07_TinhToan3.Form1.resources
 F:\18-19 HKII\18610SP\Kiem thu PM\Bai tap\BT4b\Buoi07_TinhToan3\obj\Debug\Buoi07_TinhToan3.Properties.Resources.resources
 F:\18-19 HKII\18610SP\Kiem thu PM\Bai tap\BT4b\Buoi07_TinhToan3\obj\Debug\Buoi07_TinhToan3.csproj.GenerateResource.Cache
+D:\kiemthu\Buoi07_TinhToan3\bin\Debug\Buoi07_TinhToan3.exe.config
+D:\kiemthu\Buoi07_TinhToan3\bin\Debug\Buoi07_TinhToan3.exe
+D:\kiemthu\Buoi07_TinhToan3\bin\Debug\Buoi07_TinhToan3.pdb
+D:\kiemthu\Buoi07_TinhToan3\bin\Debug\mscorlib.dll
+D:\kiemthu\Buoi07_TinhToan3\bin\Debug\normidna.nlp
+D:\kiemthu\Buoi07_TinhToan3\bin\Debug\normnfc.nlp
+D:\kiemthu\Buoi07_TinhToan3\bin\Debug\normnfd.nlp
+D:\kiemthu\Buoi07_TinhToan3\bin\Debug\normnfkc.nlp
+D:\kiemthu\Buoi07_TinhToan3\bin\Debug\normnfkd.nlp
+D:\kiemthu\Buoi07_TinhToan3\obj\Debug\Buoi07_TinhToan3.csprojResolveAssemblyReference.cache
+D:\kiemthu\Buoi07_TinhToan3\obj\Debug\Buoi07_TinhToan3.Form1.resources
+D:\kiemthu\Buoi07_TinhToan3\obj\Debug\Buoi07_TinhToan3.Properties.Resources.resources
+D:\kiemthu\Buoi07_TinhToan3\obj\Debug\Buoi07_TinhToan3.csproj.GenerateResource.Cache
+D:\kiemthu\Buoi07_TinhToan3\obj\Debug\Buoi07_TinhToan3.exe
+D:\kiemthu\Buoi07_TinhToan3\obj\Debug\Buoi07_TinhToan3.pdb

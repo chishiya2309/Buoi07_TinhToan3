@@ -39,6 +39,14 @@ namespace Buoi07_TinhToan3
         private void txtSo1_Validating(object sender, CancelEventArgs e)
         {
             string text = txtSo1.Text.Trim();
+            if (string.IsNullOrWhiteSpace(text))
+            {
+                MessageBox.Show("Số thứ nhất không được để trống! Vui lòng nhập số.",
+                                "Lỗi nhập liệu", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                e.Cancel = true;
+                return;
+            }
+
             double result;
             if (!double.TryParse(text, out result))
             {
@@ -61,6 +69,14 @@ namespace Buoi07_TinhToan3
         private void txtSo2_Validating(object sender, CancelEventArgs e)
         {
             string text = txtSo2.Text.Trim();
+            if (string.IsNullOrWhiteSpace(text))
+            {
+                MessageBox.Show("Số thứ hai không được để trống! Vui lòng nhập số.",
+                                "Lỗi nhập liệu", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                e.Cancel = true;
+                return;
+            }
+
             double result;
             if (!double.TryParse(text, out result))
             {
