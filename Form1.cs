@@ -38,22 +38,62 @@ namespace Buoi07_TinhToan3
 
         private void txtSo1_Validating(object sender, CancelEventArgs e)
         {
+            string text = txtSo1.Text.Trim();
+            if (string.IsNullOrWhiteSpace(text))
+            {
+                MessageBox.Show("Số thứ nhất không được để trống! Vui lòng nhập số.",
+                                "Lỗi nhập liệu", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                e.Cancel = true;
+                return;
+            }
+
             double result;
-            if (!double.TryParse(txtSo1.Text, out result))
+            if (!double.TryParse(text, out result))
             {
                 MessageBox.Show("Số thứ nhất không hợp lệ! Vui lòng nhập số.",
                                 "Lỗi nhập liệu", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 e.Cancel = true;
+                return;
+            }
+
+            int digitCount = text.Count(char.IsDigit);
+            if (digitCount > 30)
+            {
+                MessageBox.Show("Số thứ nhất không được vượt quá 30 chữ số!",
+                                "Lỗi nhập liệu", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                txtSo1.SelectAll();
+                e.Cancel = true;
+                return;
             }
         }
         private void txtSo2_Validating(object sender, CancelEventArgs e)
         {
+            string text = txtSo2.Text.Trim();
+            if (string.IsNullOrWhiteSpace(text))
+            {
+                MessageBox.Show("Số thứ hai không được để trống! Vui lòng nhập số.",
+                                "Lỗi nhập liệu", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                e.Cancel = true;
+                return;
+            }
+
             double result;
-            if (!double.TryParse(txtSo2.Text, out result))
+            if (!double.TryParse(text, out result))
             {
                 MessageBox.Show("Số thứ hai không hợp lệ! Vui lòng nhập số.",
                                 "Lỗi nhập liệu", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 e.Cancel = true;
+                return;
+            }
+
+            int digitCount = text.Count(char.IsDigit);
+            if (digitCount > 30)
+            {
+                MessageBox.Show("Số thứ hai không được vượt quá 30 chữ số!",
+                                "Lỗi nhập liệu", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                txtSo2.SelectAll();
+                e.Cancel = true;
+                return;
             }
         }
 
