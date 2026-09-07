@@ -186,7 +186,8 @@ namespace Buoi07_TinhToan3
         // CỘNG
         static string Cong(string a, string b)
         {
-            CanBangThapPhan(ref a, ref b, out int soLe);
+            int soLe;
+            CanBangThapPhan(ref a, ref b, out soLe);
 
             a = a.Replace(".", "");
             b = b.Replace(".", "");
@@ -200,7 +201,8 @@ namespace Buoi07_TinhToan3
         // TRỪ
         static string Tru(string a, string b)
         {
-            CanBangThapPhan(ref a, ref b, out int soLe);
+            int soLe;
+            CanBangThapPhan(ref a, ref b, out soLe);
 
             a = a.Replace(".", "");
             b = b.Replace(".", "");
